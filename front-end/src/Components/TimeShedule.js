@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import RadioComponent from "./RadioComponent";
-import { slots } from "../../../../../Janhavi-bookmyshow/front-end/src/data";
+import { slots } from "../../../../../backend-project-avalanch/almabetter-book-my-show/front-end/src/data";
 import "../Css/TimeShedule.css";
 import BsContext from "../Context/BsContext";
 
