@@ -7,6 +7,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+
 ## Description
 
 - BookMyShow website is basically for entertainment and knowledge purpose. 
@@ -17,11 +18,12 @@
 ## Features
 - Users choose the date, time and number of tickets they wish to purchase and pay for them online.
 - Users can also select the seats they want to book beforehand.
+
 1. Event listings: BookMyShow offers information on a wide range of events, including films, plays, concerts, sporting events, and more.
 
 2. Show timings and seat availability: BookMyShow gives consumers access to show timings and seat availability for the events they're interested in, making it simpler for them to plan their trip.
 
-3. Seat selection: BookMyShow gives users the option to choose their seats from an interactive seat map, making it simple to choose the best seats available.
+3. Seat selection: BookMyShow gives users the option to choose their seats from an seats schedules, making it simple to choose the best seats available.
 
 4. Available payment methods: In order to make the booking process as smooth as possible, BookMyShow provides a wide range of payment methods, including credit cards, debit cards, net banking, and mobile wallets.
 
@@ -77,6 +79,7 @@ OR
 node ./index.js
 ```
 #API TABLE
+                            
 | Method | URL                                                     | Parameters                                            |
 |--------|---------------------------------------------------------|-------------------------------------------------------|
 | GET    | http://localhost:9000/login-user    | { bodyParams :{ user_name, password} } |
