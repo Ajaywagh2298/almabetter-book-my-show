@@ -36,6 +36,9 @@ const BsState = (props) => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ movie: movie, slot: time, seats: noOfSeat }),
+    }).catch((err) => {
+      setErrorPopup(true);
+      setErrorMessage("Fail to Fetch!");
     });
 
     const data = await response.json();
@@ -67,7 +70,10 @@ const BsState = (props) => {
   const handleGetLastBooking = async () => {
     const response = await fetch(`http://localhost:8080/api/booking`, {
       method: "GET",
-    });
+    }).catch((err) => {
+          setErrorPopup(true);
+          setErrorMessage("Fail to Fetch!");
+        });
 
     const data = await response.json();
 
