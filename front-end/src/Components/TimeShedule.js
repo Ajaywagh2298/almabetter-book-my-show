@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import RadioComponent from "./RadioComponent";
-import { slots } from "../../../../../backend-project-avalanch/almabetter-book-my-show/front-end/src/data";
+import { slots } from "../data.js";
 import "../Css/TimeShedule.css";
 import BsContext from "../Context/BsContext";
 
@@ -19,7 +19,7 @@ const TimeShedule = () => {
 
   return (
     <>
-      <div className="Slot_container">
+      <div className="Slot_container" style={{marginTop:'2%'}}>
         <h1 className="TS_heading">Select a Schedule :-</h1>
         <div className="TS_main_container">
           {slots.map((el, index) => {
