@@ -3,8 +3,6 @@
 # Book My Show
 ## Group Avalanche
 
-
-
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 
@@ -38,89 +36,103 @@
 - After selecting timing of the movie, the user can select seats.
 - At the end, user clicking the book now button. 
 
-
-# Back_End
+## - Instruction  for the Installation or Run the Server / Project. -
+## For Backend
 All API Details
 
-## Installation
+### Installation
 Install the dependencies and devDependencies and start the server.
 
-
-## for backend
-```sh
+1. Change the Directory using Follow Command
+```bash
 cd back-end
-npm i
+```
+2. if Node js Package Already Available in Project
+```
 npm start
 ```
-
-Use the package manager [npm](https://www.npmjs.com/) to install folder or Use follow command.
-
-```bash
-npm install express
+2. if Project run First time on system use Follow Command
 ```
-```bash
-npm install cors
-```
-```bash
-npm install mongodb
-```
-## or
-```bash
 npm install
 ```
-# Usage
-##Run Backend Folder
-
-```bash
+```
 npm start
 ```
-OR
-```bash
+or
+for Install Package in Manually.
+```
+npm install express body-parser cors dotenv mongodb mongoose node-serialize
+```
+
+# Usage
+## Run Server
+
+```
+npm start
+```
+or
+```
 node ./index.js
 ```
-#API TABLE
+## API TABLE
                             
-| Method | URL                                                     | Parameters                                            |
-|--------|---------------------------------------------------------|-------------------------------------------------------|
-| GET    | http://localhost:9000/login-user    | { bodyParams :{ user_name, password} } |
-| POST   | http://localhost:9000/users                          | body: { full_name, user_name, password, email, mobile_number } }                                                  |
-| GET  | localhost:9000/updateContact/id?data_store=:data_store  | { body : {num1, num2, len} } |
+| Method | URL                               | Parameters                                            |
+|--------|-----------------------------------|-------------------------------------------------------|
+| GET    | http://localhost:8080/api/booking | 
+| POST   | http://localhost:8080/api/booking      |                                                   |
 
 
-# Front_end
+# For Frontend
 All API Details
 
-## Installation
-## for frontend
-```sh
+### Installation
+
+1. Change the Directory using follow Command
+```bash
 cd front-end
-npm i 
+```
+2.  if Node js Package Already Available in Project
+```
 npm start
 ```
 
-Use the package manager [npm](https://www.npmjs.com/) and [React js](https://reactjs.org/) to install folder or Use follow command.
-
-
-```bash
+2. if Project run First time on system use Follow Command
+```
 npm install
 ```
-Usage
-##Run fronted Folder
-
-```bash
+```
 npm start
 ```
-OR
-```bash
+
+### or 
+for Install Package in Manually.
+```
+npm install react react-scripts react-dom web-vitals caniuse-lite @testing-library/jest-dom @testing-library/react @testing-library/user-event
+```
+Usage
+## Run Web Server
+
+```
+npm start
+```
+or
+```
 npm run
 ```
-OR
-```bash
-npm run build
-```
-#API TABLE
-| Method | URL                                                     | Description                                           |
-|--------|---------------------------------------------------------|-------------------------------------------------------|
-| GET    |  http://localhost:3000/  | Login Page API |
-| POST   | http://localhost:3000/register                         |   Registration Page API                                           |
-| GET  | http://localhost:3000/calculator  | Fibonacci Series API |
+
+### API TABLE
+| Method     | URL                                                     | Description     |
+|------------|---------------------------------------------------------|-----------------|
+| GET / POST |  http://localhost:3000/  | Ticket Bookings |
+
+## UI Screen Short
+![img.png](img.png)
+
+## Contributing By
+### 1. Ajay Wagh
+### 2. Janvi Singh
+### 3. Gayatri Patil
+
+## License 
+### Massachusetts Institute of Technology (MIT) License.
+
