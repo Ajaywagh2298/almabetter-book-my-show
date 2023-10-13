@@ -18,5 +18,8 @@
     "mongoose": "^5.10.15",
     "node-serialize": "0.0.4"
   },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
   "license": "ISC"
 }
